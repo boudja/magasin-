@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nz.govt.app="http://schemas.android.com/tools">
+
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/nav_home"
+        android:title=" Home "
+        android:icon="@mipmap/ic_home_black_24dp">
+
+    </item>
+
+    <item android:id="@+id/nav_food"
+        android:title=" Food "
+        android:icon="@drawable/sandwich">
+
+    </item>
+
+
+    <item android:id="@+id/nav_drinks"
+        android:title=" Drinks "
+        android:icon="@drawable/lemonade">
+
+    </item>
+
+    </group>
+    <item android:title=" More Options ">
+    <menu>
+        <item android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/logout">
+
+        </item>
+    </menu>
+
+</item>
+</menu>
